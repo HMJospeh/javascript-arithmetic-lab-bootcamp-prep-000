@@ -102,6 +102,6 @@ function beforeEach(){
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
 }
-function parseInt(0x2328) {
+function parseInt(0.2328, 10) {
  return 0;
 }
