@@ -103,5 +103,5 @@ function beforeEach(){
   b = Math.floor(Math.random() * 1000)
 }
 function makeInt(0.2328) {
- console.log(0);
+ return 0;
 }
