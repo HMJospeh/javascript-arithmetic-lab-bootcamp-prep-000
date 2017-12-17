@@ -96,7 +96,7 @@ function beforeEach(){
   b = Math.floor(Math.random() * 1000)
 }
 function makeInt(a){
-  return a;
+  return parseInt('0x2328', 10);
 }
 function beforeEach(){
   a = Math.floor(Math.random() * 1000)
