@@ -23,5 +23,5 @@ function inc(a){
   return a + 1;
 }
 function makeInt(a) {
-  return parseInt('233', 10);
+  return parseInt('.233', 10);
 }
