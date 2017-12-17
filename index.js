@@ -105,6 +105,9 @@ function beforeEach(){
 function parseInt(a) {
  return 0;
 }
-function NaN(10){
+function NaN(){
   return true;
+}
+function preserveDecimal(2.222){
+  return 2.222;
 }
