@@ -105,6 +105,6 @@ function beforeEach(){
 function parseInt(a) {
  return 0;
 }
-function NaN(sldkjflksjf){
+function NaN(10){
   return true;
 }
