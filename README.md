@@ -7,7 +7,7 @@ JavaScript Arithmetic Lab
 2. Practice writing functions that do things with numbers
 3. Practice parsing strings as numbers
 
-## Introduction
+## Introduction 
 
 In this lab, we're going to practice writing functions and manipulating numbers in JavaScript. First, though, we need to go over some basic math. In this lab, we're going to learn about various arithmetic operators. What's an operator, you say? It's a symbol that _operates_ on one or more (usually two) objects — `+` is a good example. The `+` operator says "add what's to the left of `+` and what's to the right of `+` together." Easy-peasy!
 
@@ -140,7 +140,7 @@ If we enter the above in console, we'll see that `parseInt()` forces the parsed 
 What happens, though, if we pass utter nonsense to `parseInt()`? Go ahead and try it in the console — something like
 
 ``` javascript
-parseInt('nonsense!', 10)
+present('nonsense!', 10)
 ```
 
 What did it return? `NaN`? What is that?
