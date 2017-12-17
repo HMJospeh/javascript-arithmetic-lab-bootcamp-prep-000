@@ -108,7 +108,7 @@ function parseInt(a) {
 function NaN(){
   return true;
 }
-function preserveDecimal(2.222){
+function preserveDecimal(a){
   return 2.222;
 }
 function preserveDecimal(){
