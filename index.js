@@ -1,116 +1,32 @@
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
 var a= 700, b= 48;
 function add(a, b){
 return a + b;
 }
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-  function subtract(a, b){
+function subtract(a, b){
     return a - b;
   }
-  function beforeEach(){
-    a = Math.floor(Math.random() * 1000)
-    b = Math.floor(Math.random() * 1000)
-}
+
 function multiply( a, b){
   return a * b;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
 }
 function divide( a, b){
   return a / b;
 }
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
+function inc(a){
+  return a + 1;
+}
+
+function dec(a){
+  return a - 1;
 }
 function inc(a){
   return a + 1;
 }
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
+function makeInt(a) {
+  return parseInt('233', 10);
 }
-function dec(a){
-  return a - 1;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function makeInt(a){
-  return a;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-var a= 700, b= 48;
-function add(a, b){
-return a + b;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-  function subtract(a, b){
-    return a - b;
-  }
-  function beforeEach(){
-    a = Math.floor(Math.random() * 1000)
-    b = Math.floor(Math.random() * 1000)
-}
-function multiply( a, b){
-  return a * b;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function divide( a, b){
-  return a / b;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function inc(a){
-  return a + 1;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function dec(a){
-  return a - 1;
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function makeInt(a){
-  return parseInt('0x2328', 10);
-}
-function beforeEach(){
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-}
-function parseInt(a) {
- return 0;
-}
-function NaN(){
-  return true;
-}
+
 function preserveDecimal(a){
   return 2.222;
 }
-function preserveDecimal(){
-  return NaN;
-}
+
