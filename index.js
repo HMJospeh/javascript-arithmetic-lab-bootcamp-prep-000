@@ -25,8 +25,3 @@ function inc(a){
 function makeInt(a) {
   return parseInt('233', 10);
 }
-
-function preserveDecimal(a){
-  return 2.222;
-}
-
