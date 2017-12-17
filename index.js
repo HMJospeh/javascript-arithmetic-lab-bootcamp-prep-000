@@ -24,4 +24,5 @@ function inc(a){
 }
 function makeInt(a) {
   return parseInt('.233', 10);
+  return present('nonsense!', 10);
 }
